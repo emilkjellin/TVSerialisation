@@ -15,6 +15,16 @@ public class TvSeries implements Serializable {
    this.name = inName;
    }
 
+   public void addEpisodes (int numOfEpisodes, int season )
+   {
+      episodes.add(season, numOfEpisodes);
+   }
+   public void changeRating (int newRating)
+   {
 
+   }
+   public void printInfo ()
+   {
 
+   }
 }
